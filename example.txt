@@ -1,0 +1,3 @@
+This is a simple Python program to write content to a text file.
+The file is created and content is written using the 'write' method.
+You can add more lines of content here.

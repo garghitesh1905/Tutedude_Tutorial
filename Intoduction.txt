@@ -1,0 +1,4 @@
+Python is a high level programming language.
+open source and community drive
+Dynamic typed
+Easy to read and learn.
