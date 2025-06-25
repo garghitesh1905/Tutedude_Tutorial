@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Submit Form</title>
+</head>
+<body>
+  {% if error %}
+    <p style="color: red">{{ error }}</p>
+  {% endif %}
+  <form method="POST" action="/">
+    Name: <input type="text" name="name" value="{{ name }}"><br>
+    Email: <input type="email" name="email" value="{{ email }}"><br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
